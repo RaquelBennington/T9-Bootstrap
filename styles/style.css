@@ -2,10 +2,22 @@
     background-color: #7E459B;
 }
 
+
+.subtitulo{
+    padding-top: 10px;
+padding-bottom: 10px;
+}
 .img-responsive{
     object-fit: cover;
     object-position: 0 20%;
     width: 100%;
     height: 50vh;
+}
 
+.links-contatos{
+    color:  rgb(250, 25, 164);
+}
+
+.links-contatos:hover{
+    color:  #7E459B;
 }
