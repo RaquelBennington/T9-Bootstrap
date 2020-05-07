@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,10 @@
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
     <title>Document</title>
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-roxo">
+    <nav class="navbar navbar-expand-lg navbar-light bg-color">
       <div class="container">
         <a class="navbar-brand text-white" href="https://reprograma.com.br/" target="_blank">{Reprograma}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menudesktop" aria-controls="menudesktop" aria-expanded="false" aria-label="Alterna navegação">
@@ -54,36 +55,205 @@
         </a>
       </div>
 
-      <section class"text-center my-4">
-        <h1 class="font-weight-bold">Raquel Andrade</h1>
-        <p class="font-italic">Desenvolvedora front-end</p>
+      <section class="text-center my-4">
+        <h1 class="font-weight-bold links-contatos">Raquel Andrade</h1>
+        <h2 class="font-italic font-weight-light m-2 subtitulo">Desenvolvedora front-end</h2>
 
-        <div class="d-flex flex-column flex-md-row justify-content-md-around">
-          <ul>
-            <il>
-              <a href="https://github.com/RaquelBennington">
-                <i class="fab fa-github-alt"></i>
-                <spam>github.com/RaquelBennington</spam>
+        <div class="pt-4 d-flex flex-column flex-md-row justify-content-md-around redes-sociais"></div>
+            
+              <a class="p-2 links-contatos" href="https://github.com/RaquelBennington">
+                <i class="fa-2x fab fa-github"></i>
+                <spam>github.com</spam>
                 </a>
-            </il>
-            <li>
-              <a href="https://www.linkedin.com/in/raquelbennington/">
-                <i class="fab fa-linkedin"></i>
-                <spam>linkedin.com/raquelbennington</spam>
+
+              <a class="links-contatos" href="https://www.linkedin.com/in/raquelbennington/">
+                <i class="fa-2x fab fa-linkedin icon"></i>
+                <spam>linkedin.com</spam>
                 </a>
-            </li>
-            <li>
-              <a href="mailto:raquelbennington@email.com">
-                <i class="far fa-envelope"></i>
-                <spam>raquelbennington@gmail.com</spam>
+
+              <a class="links-contatos" href="mailto:raquelbennington@gmail.com" target="blank">
+
+                <i class="fa-2x fas fa-envelope-square"></i>
+                <spam>gmail.com</spam>
                 </a>
-            </li>
-          </ul>
+
+        </div>
+
+
+      </section>
+
+     
+      <section class="bg-color text-white d-flex flex-column flex-lg-row justify-content-lg-around p-4">
+
+        <div class="habilidades  w-100">
+    
+          <h2 class="text-center">Habilidades</h2>
+    
+          <div class="icones pt-3 row justify-content-center">
+    
+            <div>
+              <div class="text-center redes-sociais col">
+                <i class="fab fa-html5"></i>                
+                <p>HTML5</p>
+              </div>
+              <div class="text-center redes-sociais col">
+                <i class="fab fa-bootstrap"></i>
+                <p>Bootstrap</p>
+              </div>
+              <div class="text-center redes-sociais col">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS3</p>
+              </div>
+            </div>
+            <div>
+              <div class="text-center redes-sociais col">
+                <i class="fab fa-sass"></i>                
+                <p>SASS</p>
+              </div>
+              <div class="text-center redes-sociais col">
+                <i class="fab fab fa-react"></i>
+                <p>React</p>
+              </div>
+              <div class="text-center redes-sociais col">
+                <i class="fab fa-git-alt"></i>
+                <p>Git</p>
+              </div>
+            </div>
+            <div>
+              <div class="text-center redes-sociais col">
+                <i class="fab fa-js"></i>
+                <p>Javascript</p>
+              </div>
+              <div class="text-center redes-sociais col">
+                <i class="fas fa-book"></i>
+                <p>JQuery</p>
+              </div>
+              <div class="text-center redes-sociais col">
+                <i class="fas fa-tasks"></i>
+                <p>Scrum</p>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+    
+        <div class="sobre text-center w-100">
+          <h2>Sobre</h2>
+          <p class="pt-3">Sou uma profissional formada em marketing pela Universidade Anhembi Morumbi. Atualmente sou estudante na área da tecnologia. Tenho gostado muito de aprender HTML e CSS, está fazendo muito sentido aprender a codar cada dia mais.</p>
         </div>
       </section>
 
+
+    <section class=" container  mb-5 modal-cards">
+    
+          <!--Projeto 1 -->
+          <div class="card m-5" style="width: 18rem;">
+            <img src="img/carousel_01.jpg" class="card-img-top" alt="Imagem do card">
+            <div class="card-body">
+              <h5 class="card-title">Projeto 1</h5>
+              <p class="card-text">M de maravilhosas</p>       
+            </div>
+            <button type="button" class="m-5 btn bg-color text-white m-auto" data-toggle="modal" data-target="#modal1">
+              Veja mais
+            </button>     
+          </div>    
+          
+ 
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="exampleModalLongTitle">Projeto nome</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>M de Maravilhosa</p>       
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <a href="#" target="blank" class="btn bg-color text-white">Ver página</a>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </section>
+
+    <section class=" container  mb-5 modal-cards">
+    
+      <!--Projeto 2 -->
+      <div class="card m-5" style="width: 18rem;">
+        <img src="img/carousel_03.jpg" class="card-img-top" alt="Imagem do card">
+        <div class="card-body">
+          <h3 class="card-title">Projeto 2</h3>
+          <p class="card-text">To Do List</p>       
+        </div>
+        <button type="button" class="m-5 btn bg-color text-white m-auto" data-toggle="modal" data-target="#modal1">
+          Veja mais
+        </button>     
+      </div>    
+      
+
+  <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Projeto nome</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>M de Maravilhosa</p>       
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <a href="#" target="blank" class="btn bg-color text-white">Ver página</a>
+        </div>
+      </div>
+    </div>
+  </div>      
+</section>
+
+<section class=" container  mb-5 modal-cards">
+    
+  <!--Projeto 3 -->
+  <div class="card m-5" style="width: 18rem;">
+    <img src="img/carousel_03.jpg" class="card-img-top" alt="Imagem do card">
+    <div class="card-body">
+      <h3 class="card-title">Portifólio</h3>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique facilis illum nemo ipsa vitae velit quia delectus corrupti fugiat cupiditate.</p>       
+    </div>
+    <button type="button" class="m-5 btn bg-color text-white m-auto" data-toggle="modal" data-target="#modal1">
+      Veja mais
+    </button>     
+  </div>    
+  
+
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle">Projeto nome</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>M de Maravilhosa</p>       
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      <a href="#" target="blank" class="btn bg-color text-white">Ver página</a>
+    </div>
+  </div>
+</div>
+</div>      
+</section>
+
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/54379198c5.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/54379198c5.js" crossorigin="anonymous"></script>    
 </body>
 </html>

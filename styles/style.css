@@ -1,11 +1,38 @@
-.bg-roxo{
+.bg-color{
     background-color: #7E459B;
 }
 
-.img-responsive{
+a:hover{
+  font-weight: bold;
+}
+
+.imagem-carousel {
     object-fit: cover;
     object-position: 0 20%;
-    width: 100%;
     height: 50vh;
+  
+}
 
+.links-contatos{
+  color:  #7E459B;  
+}
+
+.links-contatos:hover{
+  color:  #7E459B;
+}
+
+.redes-sociais i{
+  font-size: 1.6rem;
+}
+
+.font-roxo{
+  color: rgb(75, 38, 94);
+}
+
+button{
+  width: 100px;
+}
+
+button:hover{
+ opacity: .9;
 }
